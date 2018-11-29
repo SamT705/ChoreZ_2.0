@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam.chorez_20.HomeScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose yardwork or housework to give"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/giveyardwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yardwork"
+        android:layout_alignBaseline="@+id/givehousework"
+        android:layout_alignBottom="@+id/givehousework"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/givehousework"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Housework"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="47dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="71dp" />
+
+
+</RelativeLayout>
